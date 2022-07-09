@@ -2,12 +2,18 @@ pre code {
     display:block;
     overflow-x:auto;
     padding:1em;
-}
-
-code {
-    padding:3px 5px;
     color: #ddd;
     background: #111;
+}
+
+ul, p {
+    code {
+        padding: 1px 0.3rem;
+        border-radius: 0.2rem;
+        border: 1px solid #e5e5e5;
+        background: #f0f0f0;
+        font-size: 1rem;
+    }
 }
 
 .hljs-keyword,

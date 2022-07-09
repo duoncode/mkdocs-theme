@@ -1,9 +1,17 @@
+@import "fonts";
+
+body {
+    font-family: 'PT Serif', Georgia, serif;
+}
+
 .pane {
     max-width: 200px;
 }
 
 .logo {
+    font-size: 2rem;
+
     img {
-        width: 100%;
+        width: 2rem;
     }
 }

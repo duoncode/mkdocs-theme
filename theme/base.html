@@ -15,7 +15,8 @@
     <link href="{{ path|url }}" rel="stylesheet">
 {% endfor %}
 
-  <script src="{{"theme.js"|url }}"></script>
+    <script src="{{"highlight.min.js"|url }}"></script>
+    <script>hljs.highlightAll();</script>
 
 {% block extrahead %}
 {% endblock %}

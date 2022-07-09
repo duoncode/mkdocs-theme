@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    padding: 3rem 2rem;
+    width: 15rem;
+    // background: #ccc;
+}
+
+article {
+    flex-grow: 1;
+
+    & > div {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+}
+

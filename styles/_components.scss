@@ -1,0 +1,30 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 2rem;
+
+    img {
+        width: 2rem;
+        margin-right: 0.5rem;
+    }
+}
+
+.github-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    svg {
+        width: 1.3rem;
+        margin-right: 0.5rem;
+    }
+}
+
+.prevnext {
+    a {
+        border-bottom: 1px dotted #999;
+    }
+}

@@ -16,6 +16,24 @@
     }
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    margin-top: 2rem;
+
+    .logo {
+        margin: 0 auto;
+    }
+
+    .toc-link {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        font-style: italic;
+    }
+}
+
 .github-link {
     display: flex;
     flex-direction: row;

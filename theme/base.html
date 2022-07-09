@@ -27,8 +27,19 @@
 </head>
 
 <body>
+    <header class="mobile">
+        <div class="logo">
+            <a href="https://conia.dev">
+                <img src="{{ "logo.svg"|url }}" alt="{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }} Logo">
+            </a>
+            {% if config.project %}{{ config.project }}{% endif %}
+        </div>
+        <div class="toc-link">
+            <a href="#navigation">Jump to table of contents</a>
+        </div>
+    </header>
     <main>
-        <aside class="pane">
+        <aside id="navigation" class="pane">
             <div class="logo">
                 <a href="https://conia.dev">
                     <img src="{{ "logo.svg"|url }}" alt="{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }} Logo">
@@ -61,7 +72,7 @@
             </div>
         </article>
 
-        <aside class="toc">
+        <aside class="toc desktop">
             <!-- github repo URL -->
             {% if page and page.edit_url %}
                 <a href="{{ page.edit_url }}" class="github-link">

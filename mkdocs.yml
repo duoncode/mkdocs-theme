@@ -1,0 +1,6 @@
+site_name: Conia Theme
+copyright: © 2022 ebene fünf GmbH
+theme:
+    name: conia
+
+repo_url: https://github.com/coniadev/mkdocs-conia

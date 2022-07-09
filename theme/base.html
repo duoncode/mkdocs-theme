@@ -29,6 +29,7 @@
     <aside class="pane">
         <div class="logo">
             <img src="{{ "logo.svg"|url }}" alt="{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }} Logo">
+            {% if config.project %}{{ config.project }}{% endif %}
         </div>
 
         <div role="search">
@@ -36,6 +37,8 @@
             <input type="search" name="q" placeholder="Search docs" />
             </form>
         </div>
+
+        <div class="nav-title">Contents</div>
 
         <ul>
         {% for nav_item in nav %}

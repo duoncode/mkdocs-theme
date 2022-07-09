@@ -23,7 +23,14 @@ header {
     margin-top: 2rem;
 
     .logo {
+        flex-direction: column;
         margin: 0 auto;
+        justify-content: center ;
+
+        img {
+            width: 3rem;
+            margin-right: 0;
+        }
     }
 
     .toc-link {

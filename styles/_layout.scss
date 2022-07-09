@@ -1,5 +1,9 @@
 $max-width: 800px;
 
+html, body {
+    overflow-x: hidden;
+}
+
 main {
     max-width: 1500px;
     margin: 0 auto;
@@ -51,7 +55,7 @@ header.mobile {
     }
 
     .mobile {
-        display: none;
+        display: none !important;
     }
 
     .desktop {

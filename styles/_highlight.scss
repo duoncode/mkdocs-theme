@@ -1,14 +1,11 @@
-pre code.hljs{
+pre code {
     display:block;
     overflow-x:auto;
-    padding:1em
+    padding:1em;
 }
 
-code.hljs{
-    padding:3px 5px
-}
-
-.hljs{
+code {
+    padding:3px 5px;
     color: #ddd;
     background: #111;
 }
@@ -18,7 +15,7 @@ code.hljs{
 .hljs-literal,
 .hljs-section,
 .hljs-selector-tag{
-    color: #fff
+    color: #fff;
 }
 
 .hljs-addition,
@@ -33,7 +30,7 @@ code.hljs{
 .hljs-title,
 .hljs-type,
 .hljs-variable{
-    color: #aaa
+    color: #aaa;
 }
 
 .hljs-comment {
@@ -56,9 +53,9 @@ code.hljs{
 .hljs-strong,
 .hljs-title,
 .hljs-type{
-    font-weight:700
+    font-weight: 700;
 }
 
 .hljs-emphasis{
-    font-style:italic
+    font-style: italic;
 }

@@ -8,11 +8,9 @@ pre code {
 
 ul, p {
     code {
-        padding: 1px 0.3rem;
-        border-radius: 0.2rem;
-        border: 1px solid #e5e5e5;
         background: #f0f0f0;
         font-size: 1rem;
+        padding: 0 0.2rem;
     }
 }
 
@@ -34,9 +32,12 @@ ul, p {
 .hljs-template-tag,
 .hljs-template-variable,
 .hljs-title,
-.hljs-type,
-.hljs-variable{
+.hljs-type {
     color: #aaa;
+}
+
+.hljs-variable {
+    color: #fff;
 }
 
 .hljs-comment {

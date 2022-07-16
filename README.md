@@ -22,9 +22,10 @@ Install Dart Sass via `npm install -g sass`. During develompment:
 
 ## Deploy to PyPi
 
-Install `twine` if not already done. Bump version number, then:
+Install `twine` if not already done. Bump version number in `setup.py`, then:
 
     git tag -a vX.X.X -m "Version X.X.X"
+    git push origin vX.X.X
     sass --style=compressed styles:theme
     python setup.py bdist_wheel
     twine upload dist/*

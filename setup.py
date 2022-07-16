@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.1.0-dev'
+VERSION = '0.1.0'
 
 setup(
     name="mkdocs_conia",
     version=VERSION,
     url='https://github.com/coniadev/mkdocs-conia',
     license='MIT',
-    description='Default theme for GitBook for Mkdocs',
+    description='Default mkdocs theme for Conia projects',
     author='ebene fünf GmbH',
     author_email='conia@ebenefuenf.de',
     packages=find_packages(),

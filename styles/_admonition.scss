@@ -1,0 +1,23 @@
+.admonition {
+    border: 1px dotted #999;
+    border-radius: 0.4rem;
+    padding: 0.8rem 1.5rem 1rem;
+
+    .admonition-title {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0.6rem;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    &.warning, &.info {
+        background-color: #f0f0f0;
+    }
+}

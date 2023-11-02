@@ -1,12 +1,12 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
-VERSION = '0.1.4'
+VERSION = '0.1.5'
 
 with open('README.md', 'rt', encoding='utf8') as f:
     README = f.read()
 
 setup(
-    name="mkdocs-conia",
+    name='mkdocs-conia',
     version=VERSION,
     url='https://github.com/coniadev/mkdocs-conia',
     license='MIT',
@@ -26,5 +26,5 @@ setup(
             'conia = theme',
         ]
     },
-    zip_safe=False
+    zip_safe=False,
 )

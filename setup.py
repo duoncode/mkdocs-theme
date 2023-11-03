@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-VERSION = '0.1.6'
+VERSION = '0.1.7'
 
 with open('README.md', 'rt', encoding='utf8') as f:
     README = f.read()
@@ -20,6 +20,7 @@ setup(
     install_requires=[
         'mkdocs>=1.3',
         'mkdocs-macros-plugin>=0.7',
+        'pymdown-extensions>=10.3',
     ],
     entry_points={
         'mkdocs.themes': [

@@ -6,3 +6,6 @@ copyright: © 2022 ebene fünf GmbH
 theme:
     name: conia
 repo_url: https://github.com/coniadev/mkdocs-conia
+markdown_extensions:
+    - pymdownx.snippets:
+        base_path: ["docs/code"]

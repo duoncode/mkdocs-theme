@@ -23,6 +23,10 @@ namespace Conia\Boiler;
 
 class Layout extends Template
 {
+    protected string $str = 'Chuck';
+    protected int $number = 666;
+    protected bool $is = false;
+
     public function __construct(
         Engine $engine,
         string $path,

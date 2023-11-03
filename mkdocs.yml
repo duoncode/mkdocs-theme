@@ -1,4 +1,5 @@
 site_name: Conia Theme
+dev_addr: localhost:7371
 extra:
     project: Conia
 copyright: © 2022 ebene fünf GmbH

@@ -14,6 +14,10 @@ Add the theme to your `mkdocs.yml` file:
     theme:
         name: conia
 
+## Development server
+
+    mkdocs serve -w theme   
+
 ## Styles
 
 Install Dart Sass via `npm install -g sass`. During develompment:
@@ -26,6 +30,6 @@ Install `twine` if not already done. Bump version number in `setup.py`, then:
 
     git tag -a vX.X.X -m "Version X.X.X"
     git push origin vX.X.X
-    sass --style=compressed styles:theme
+    sass --style=compressed --no-source-map styles:theme
     python setup.py bdist_wheel
     twine upload dist/*

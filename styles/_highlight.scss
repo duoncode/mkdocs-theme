@@ -8,10 +8,18 @@ pre code {
 
 ul, p {
     code {
-        background: #f0f0f0;
+        background: #ffeae7;
         font-size: 1rem;
-        padding: 0 0.2rem;
+        padding: 2px 4px;
+        color: #ae392c;
+        border-radius: 3px;
     }
+}
+
+a code {
+    border-bottom: 1px dashed;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 .hljs-keyword,

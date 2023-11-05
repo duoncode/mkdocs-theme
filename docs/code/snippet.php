@@ -6,6 +6,7 @@ namespace Conia\Boiler;
 
 use Conia\Boiler\Engine;
 
+#[Call('value')]
 class Layout extends Template
 {
     protected string $str = 'Chuck';
@@ -13,6 +14,7 @@ class Layout extends Template
     protected bool $is = false;
 
     public function __construct(
+        #[Inject('custom-engine')]
         Engine $engine,
         string $path,
         array $context,

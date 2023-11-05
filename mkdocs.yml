@@ -7,5 +7,6 @@ theme:
     name: conia
 repo_url: https://github.com/coniadev/mkdocs-conia
 markdown_extensions:
+    - admonition
     - pymdownx.snippets:
         base_path: ["docs/code"]

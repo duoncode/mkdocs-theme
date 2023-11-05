@@ -1,7 +1,7 @@
 .admonition {
-    border: 1px dotted #999;
     border-radius: 0.4rem;
     padding: 0.8rem 1.5rem 1rem;
+    margin-bottom: 1.5rem;
 
     .admonition-title {
         font-size: 1.25rem;
@@ -17,7 +17,17 @@
         margin-bottom: 0;
     }
 
-    &.warning, &.info {
-        background-color: #f0f0f0;
+    &.warn {
+        border: 1px dotted #ae392c;
+        background-color: #fff0ef;
+
+        .admonition-title {
+            color: #ae392c;
+        }
+    }
+
+    &.info {
+        border: 1px dotted #797777;
+        background-color: #fbf9f9;
     }
 }

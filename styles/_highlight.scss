@@ -4,6 +4,7 @@ pre code {
     padding:1em;
     color: #ddd;
     background: #111;
+    margin-bottom: 2.5rem;
 }
 
 ul, p {
@@ -54,6 +55,9 @@ a code {
     color: #dc9676;
 }
 
+.hljs-meta {
+    color: #C15E8A;
+}
 
 .hljs-variable {
     color: #fac891;
@@ -65,7 +69,6 @@ a code {
 }
 
 .hljs-deletion,
-.hljs-meta,
 .hljs-quote{
     color: #bbb;
 }

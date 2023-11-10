@@ -1,10 +1,22 @@
-pre code {
+pre code,
+code.annotated {
     display:block;
     overflow-x:auto;
     padding:1em;
     color: #ddd;
-    background: #111;
+    background: #19110f;
     margin-bottom: 2.5rem;
+
+    .highlight {
+        background: #ae392c;
+        padding: 2px 4px;
+        border-radius: 5px;
+    }
+
+    .dots {
+        color: #666;
+        font-style: italic;
+    }
 }
 
 ul, p {
@@ -64,7 +76,7 @@ a code {
 }
 
 .hljs-comment {
-    color: #666;
+    color: #847a78;
     font-style: italic;
 }
 

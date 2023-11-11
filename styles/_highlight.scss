@@ -7,10 +7,41 @@ code.annotated {
     background: #19110f;
     margin-bottom: 2.5rem;
 
-    .highlight {
-        background: #ae392c;
+    .spot {
         padding: 2px 4px;
         border-radius: 5px;
+
+        &.red {
+            background: #ae392c;
+
+            &.contrast {
+                color: #ffd9cc;
+            }
+        }
+
+        &.purple {
+            background: #c15e8a;
+
+            &.contrast {
+                color: #ffdefa;
+            }
+        }
+
+        &.orange {
+            background: #cc8666;
+
+            &.contrast {
+                color: #4c0600;
+            }
+        }
+
+        &.yellow {
+            background: #fac891;
+
+            &.contrast {
+                color: #7a5811;
+            }
+        }
     }
 
     .dots {

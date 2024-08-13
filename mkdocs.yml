@@ -1,11 +1,11 @@
-site_name: Conia Theme
+site_name: VacantPlanet Theme
 dev_addr: localhost:7371
 extra:
-    project: Conia
-copyright: © 2022 ebene fünf GmbH
+    project: VacantPlanet
+copyright: © 2022-2024 ebene fünf GmbH
 theme:
-    name: conia
-repo_url: https://github.com/coniadev/mkdocs-conia
+    name: vacantplanet
+repo_url: https://github.com/vacantplanet/mkdocs-theme
 markdown_extensions:
     - admonition
     - pymdownx.snippets:

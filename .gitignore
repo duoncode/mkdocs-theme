@@ -2,6 +2,6 @@
 __pycache__
 build/
 dist/
-mkdocs_conia.egg-info/
+mkdocs_vacantplanet.egg-info/
 site/
 theme/*.css*

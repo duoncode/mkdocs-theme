@@ -6,15 +6,15 @@ with open('README.md', 'rt', encoding='utf8') as f:
     README = f.read()
 
 setup(
-    name='mkdocs-conia',
+    name='mkdocs-vacantplanet',
     version=VERSION,
-    url='https://github.com/coniadev/mkdocs-conia',
+    url='https://github.com/vacantplanet/mkdocs-theme',
     license='MIT',
-    description='Default mkdocs theme for Conia projects',
+    description='Default mkdocs theme for VacantPlanet projects',
     long_description=README,
     long_description_content_type='text/markdown',
     author='ebene fünf GmbH',
-    author_email='conia@ebenefuenf.de',
+    author_email='vacantplanet@ebenefuenf.de',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -24,7 +24,7 @@ setup(
     ],
     entry_points={
         'mkdocs.themes': [
-            'conia = theme',
+            'vacantplanet = theme',
         ]
     },
     zip_safe=False,

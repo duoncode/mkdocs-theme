@@ -1,18 +1,18 @@
-MkDocs Vacant Planet Theme
-=========================
+FiveOrbs MkDocs Theme
+=====================
 
-This is a theme for MkDocs which is mainly used in [VacantPlanet](https://vacantplanet.dev) projects 
+This is a theme for MkDocs which is mainly used in [FiveOrbs](https://fiveorbs.dev) projects 
 
 ## Installation
 
 Install the package from PyPi using `pip`:
 
-    pip install mkdocs-vacantplanet
+    pip install mkdocs-fiveorbs
 
 Add the theme to your `mkdocs.yml` file:
 
     theme:
-        name: vacantplanet
+        name: fiveorbs
 
 ## Development server
 

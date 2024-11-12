@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace VacantPlanet\Boiler;
+namespace FiveOrbs\Boiler;
 
-use VacantPlanet\Boiler\Engine;
+use FiveOrbs\Boiler\Engine;
 
 #[Call('value')]
 class Layout extends Template

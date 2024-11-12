@@ -1,11 +1,11 @@
-site_name: VacantPlanet Theme
+site_name: FiveOrbs Theme
 dev_addr: localhost:7371
 extra:
-    project: VacantPlanet
+    project: FiveOrbs
 copyright: © 2022-2024 ebene fünf GmbH
 theme:
-    name: vacantplanet
-repo_url: https://github.com/vacantplanet/mkdocs-theme
+    name: fiveorbs
+repo_url: https://github.com/fiveorbs/mkdocs-theme
 markdown_extensions:
     - admonition
     - pymdownx.snippets:

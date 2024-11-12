@@ -2,6 +2,6 @@
 __pycache__
 build/
 dist/
-mkdocs_vacantplanet.egg-info/
+mkdocs_fiveorbs.egg-info/
 site/
 theme/*.css*

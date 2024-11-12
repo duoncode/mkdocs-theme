@@ -30,7 +30,7 @@ Install Dart Sass via `npm install -g sass`. During develompment:
 Install `uv` if not already done. Bump version number in
 `setup.py`, then:
 
-    git tag -a vX.X.X -m "Version X.X.X"
+    git tag -a X.X.X -m "Release Version X.X.X"
     git push origin vX.X.X
     sass --style=compressed --no-source-map styles:theme
     uv build

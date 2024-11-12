@@ -18,11 +18,11 @@
     }
 
     &.warn {
-        border: 1px dotted #ae392c;
+        border: 1px dotted $highlight-color;
         background-color: #fff0ef;
 
         .admonition-title {
-            color: #ae392c;
+            color: $highlight-color;
         }
     }
 

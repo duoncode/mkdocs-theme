@@ -6,9 +6,9 @@ body {
 }
 
 a, a:focus, a:visited {
-    color: #ae392c;
+    color: $highlight-color;
     text-decoration: 0;
-    border-bottom: 1px dotted #ae392c;
+    border-bottom: 1px dotted $highlight-color;
 }
 
 h1 {

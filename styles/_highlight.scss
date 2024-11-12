@@ -12,7 +12,7 @@ code.annotated {
         border-radius: 5px;
 
         &.red {
-            background: #ae392c;
+            background: $highlight-color;
 
             &.contrast {
                 color: #ffd9cc;
@@ -55,7 +55,7 @@ ul, p {
         background: #ffeae7;
         font-size: 1rem;
         padding: 2px 4px;
-        color: #ae392c;
+        color: $highlight-color;
         border-radius: 3px;
     }
 }
@@ -87,7 +87,7 @@ a code {
 }
 
 .hljs-number {
-    color: #ae392c;
+    color: $highlight-color;
 }
 
 .hljs-string {

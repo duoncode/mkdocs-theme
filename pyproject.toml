@@ -1,7 +1,7 @@
 [tool.black]
 line_length = 99
 skip_string_normalization = true
-target_versions = ["py310", "py311"]
+target_versions = ["py311", "py312", "py313"]
 preview = true
 
 [tool.isort]

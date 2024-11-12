@@ -1,4 +1,5 @@
 @use 'sass:color';
+@use 'vars';
 
 pre code,
 code.annotated {
@@ -14,7 +15,7 @@ code.annotated {
         border-radius: 5px;
 
         &.red {
-            background: color.adjust($highlight-color, $lightness: -15%);
+            background: color.adjust(vars.$highlight-color, $lightness: -15%);
 
             &.contrast {
                 color: #ffd9cc;
@@ -57,7 +58,7 @@ ul, p {
         background: #ffeae7;
         font-size: 1rem;
         padding: 2px 4px;
-        color: color.adjust($highlight-color, $lightness: -15%);
+        color: color.adjust(vars.$highlight-color, $lightness: -15%);
         border-radius: 3px;
     }
 }
@@ -89,7 +90,7 @@ a code {
 }
 
 .hljs-number {
-    color: color.adjust($highlight-color, $lightness: -15%);
+    color: color.adjust(vars.$highlight-color, $lightness: -15%);
 }
 
 .hljs-string {

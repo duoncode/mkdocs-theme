@@ -1,7 +1,6 @@
-@import "vars";
-@import "admonition";
-@import "components";
-@import "fonts";
-@import "highlight";
-@import "layout";
-@import "prose";
+@use "admonition";
+@use "components";
+@use "fonts";
+@use "highlight";
+@use "layout";
+@use "prose";

@@ -1,3 +1,5 @@
+@use 'vars';
+
 body {
     font-family: 'PT Serif', Georgia, serif;
     font-size: 1.2rem;
@@ -6,9 +8,9 @@ body {
 }
 
 a, a:focus, a:visited {
-    color: $highlight-color;
+    color: vars.$highlight-color;
     text-decoration: 0;
-    border-bottom: 1px dotted $highlight-color;
+    border-bottom: 1px dotted vars.$highlight-color;
 }
 
 h1 {

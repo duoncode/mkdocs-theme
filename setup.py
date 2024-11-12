@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-VERSION = '0.1.13'
+VERSION = '0.1.14'
 
 with open('README.md', 'rt', encoding='utf8') as f:
     README = f.read()
@@ -18,7 +18,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'mkdocs>=1.3',
+        'mkdocs>=1.6',
         'mkdocs-macros-plugin>=0.7',
         'pymdown-extensions>=10.3',
     ],

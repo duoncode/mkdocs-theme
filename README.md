@@ -1,7 +1,8 @@
 FiveOrbs MkDocs Theme
 =====================
 
-This is a theme for MkDocs which is mainly used in [FiveOrbs](https://fiveorbs.dev) projects 
+This is a theme for MkDocs which is mainly used for the documentation of
+[FiveOrbs](https://fiveorbs.dev) projects 
 
 ## Installation
 
@@ -26,7 +27,8 @@ Install Dart Sass via `npm install -g sass`. During develompment:
 
 ## Deploy to PyPi
 
-Install `twine` and `build` if not already done. Bump version number in `setup.py`, then:
+Install `twine` and `build` if not already done. Bump version number in
+`setup.py`, then:
 
     git tag -a vX.X.X -m "Version X.X.X"
     git push origin vX.X.X

@@ -1,70 +1,70 @@
 .logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 
-    font-size: 2rem;
+	font-size: 2rem;
 
-    a {
-        border-bottom: 0;
-        line-height: 0;
-    }
+	a {
+		border-bottom: 0;
+		line-height: 0;
+	}
 
-    img {
-        width: 2rem;
-        margin-right: 0.5rem;
-    }
+	img {
+		width: 2rem;
+		margin-right: 0.5rem;
+	}
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-    margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center ;
+	margin-top: 2rem;
 
-    .logo {
-        flex-direction: column;
-        margin: 0 auto;
-        justify-content: center ;
+	.logo {
+		flex-direction: column;
+		margin: 0 auto;
+		justify-content: center ;
 
-        img {
-            width: 3rem;
-            margin-right: 0;
-        }
-    }
+		img {
+			width: 3rem;
+			margin-right: 0;
+		}
+	}
 
-    .toc-link {
-        text-align: center;
-        margin-top: 1rem;
-        font-size: 0.8rem;
-        font-style: italic;
-    }
+	.toc-link {
+		text-align: center;
+		margin-top: 1rem;
+		font-size: 0.8rem;
+		font-style: italic;
+	}
 }
 
 .github-link {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 0.4rem;
-    margin-bottom: 1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 0.4rem;
+	margin-bottom: 1rem;
 
-    svg {
-        width: 1.3rem;
-        margin-right: 0.5rem;
-    }
+	svg {
+		width: 1.3rem;
+		margin-right: 0.5rem;
+	}
 }
 
 .prevnext {
-    a {
-        border-bottom: 1px dotted #999;
-    }
+	a {
+		border-bottom: 1px dotted #999;
+	}
 }
 
 input[name='q'] {
-    padding: 0.3rem 0.5rem;
-    font-family: 'PT Serif', Georgia, serif;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 0.2rem;
-    font-size: 1rem;
+	padding: 0.3rem 0.5rem;
+	font-family: 'PT Serif', Georgia, serif;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 0.2rem;
+	font-size: 1rem;
 }

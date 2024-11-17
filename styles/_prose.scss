@@ -1,59 +1,59 @@
 @use 'vars';
 
 body {
-    font-family: 'PT Serif', Georgia, serif;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin: 0;
+	font-family: 'PT Serif', Georgia, serif;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin: 0;
 }
 
 a, a:focus, a:visited {
-    color: vars.$highlight-color;
-    text-decoration: 0;
-    border-bottom: 1px dotted vars.$highlight-color;
+	color: vars.$highlight-color;
+	text-decoration: 0;
+	border-bottom: 1px dotted vars.$highlight-color;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin: 2.6rem 0 1.5rem;
+	font-size: 2.5rem;
+	margin: 2.6rem 0 1.5rem;
 }
 
 h2 {
-    margin: 2.6rem 0 1.2rem;
+	margin: 2.6rem 0 1.2rem;
 }
 
 h3 {
-    margin: 2rem 0 0.5rem;
+	margin: 2rem 0 0.5rem;
 }
 
 p {
-    margin-top: 0.5rem;
+	margin-top: 0.5rem;
 }
 
 aside {
-    a {
-        text-decoration: none;
-        border-bottom: 0;
-    }
+	a {
+		text-decoration: none;
+		border-bottom: 0;
+	}
 
-    ul {
-        padding: 0 1.1rem;
-    }
+	ul {
+		padding: 0 1.1rem;
+	}
 
-    .title {
-        font-size: 1.3rem;
-        font-weight: bold;
-        margin: 2rem 0 1rem;
-    }
+	.title {
+		font-size: 1.3rem;
+		font-weight: bold;
+		margin: 2rem 0 1rem;
+	}
 }
 
 pre code {
-    border-radius: 0.5rem;
-    font-size: 1rem;
+	border-radius: 0.5rem;
+	font-size: 1rem;
 }
 
 .toc {
-    ul {
-        font-size: 1rem;
-    }
+	ul {
+		font-size: 1rem;
+	}
 }

@@ -1,35 +1,35 @@
 @use 'vars';
 
 .admonition {
-    border-radius: 0.4rem;
-    padding: 0.8rem 1.5rem 1rem;
-    margin-bottom: 1.5rem;
+	border-radius: 0.4rem;
+	padding: 0.8rem 1.5rem 1rem;
+	margin-bottom: 1.5rem;
 
-    .admonition-title {
-        font-size: 1.25rem;
-        font-weight: 600;
-    }
+	.admonition-title {
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
 
-    p {
-        margin-top: 0;
-        margin-bottom: 0.6rem;
-    }
+	p {
+		margin-top: 0;
+		margin-bottom: 0.6rem;
+	}
 
-    p:last-child {
-        margin-bottom: 0;
-    }
+	p:last-child {
+		margin-bottom: 0;
+	}
 
-    &.warn {
-        border: 1px dotted vars.$highlight-color;
-        background-color: #fff0ef;
+	&.warn {
+		border: 1px dotted vars.$highlight-color;
+		background-color: #fff0ef;
 
-        .admonition-title {
-            color: vars.$highlight-color;
-        }
-    }
+		.admonition-title {
+			color: vars.$highlight-color;
+		}
+	}
 
-    &.info {
-        border: 1px dotted #797777;
-        background-color: #fbf9f9;
-    }
+	&.info {
+		border: 1px dotted #797777;
+		background-color: #fbf9f9;
+	}
 }

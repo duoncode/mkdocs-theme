@@ -1,64 +1,64 @@
 $max-width: 800px;
 
 html, body {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 main {
-    max-width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column-reverse;
+	max-width: 1500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 aside {
-    padding: 3rem 2rem;
-    width: 100%;
-    max-width: $max-width;
-    margin: 0 auto;
+	padding: 3rem 2rem;
+	width: 100%;
+	max-width: $max-width;
+	margin: 0 auto;
 }
 
 article {
-    flex-grow: 1;
+	flex-grow: 1;
 
-    & > div {
-        max-width: $max-width;
-        margin: 0 auto;
-        padding: 0 1rem;
-    }
+	& > div {
+		max-width: $max-width;
+		margin: 0 auto;
+		padding: 0 1rem;
+	}
 }
 
 footer {
-    padding: 2rem;
-    text-align: center;
+	padding: 2rem;
+	text-align: center;
 }
 
 .mobile {
-    display: block;
+	display: block;
 }
 header.mobile {
-    display: flex;
+	display: flex;
 }
 
 .desktop {
-    display: none;
+	display: none;
 }
 
 @media (min-width: 1280px) {
-    main {
-        flex-direction: row;
-    }
+	main {
+		flex-direction: row;
+	}
 
-    aside {
-        width: 16rem;
-        margin: 0;
-    }
+	aside {
+		width: 16rem;
+		margin: 0;
+	}
 
-    .mobile {
-        display: none !important;
-    }
+	.mobile {
+		display: none !important;
+	}
 
-    .desktop {
-        display: block;
-    }
+	.desktop {
+		display: block;
+	}
 }

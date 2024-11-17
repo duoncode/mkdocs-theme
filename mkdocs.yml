@@ -1,12 +1,12 @@
 site_name: FiveOrbs Theme
 dev_addr: localhost:7371
 extra:
-    project: FiveOrbs
+  project: FiveOrbs
 copyright: © 2022-2024 ebene fünf GmbH
 theme:
-    name: fiveorbs
+  name: fiveorbs
 repo_url: https://github.com/fiveorbs/mkdocs-theme
 markdown_extensions:
-    - admonition
-    - pymdownx.snippets:
-        base_path: ["docs/code"]
+  - admonition
+  - pymdownx.snippets:
+      base_path: ["docs/code"]

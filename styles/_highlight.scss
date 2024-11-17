@@ -3,77 +3,77 @@
 
 pre code,
 code.annotated {
-    display:block;
-    overflow-x:auto;
-    padding:1em;
-    color: #ddd;
-    background: #19110f;
-    margin-bottom: 2.5rem;
+	display:block;
+	overflow-x:auto;
+	padding:1em;
+	color: #ddd;
+	background: #19110f;
+	margin-bottom: 2.5rem;
 
-    .spot {
-        padding: 2px 4px;
-        border-radius: 5px;
+	.spot {
+		padding: 2px 4px;
+		border-radius: 5px;
 
-        &.red {
-            background: color.adjust(vars.$highlight-color, $lightness: -15%);
+		&.red {
+			background: color.adjust(vars.$highlight-color, $lightness: -15%);
 
-            &.contrast {
-                color: #ffd9cc;
-            }
-        }
+			&.contrast {
+				color: #ffd9cc;
+			}
+		}
 
-        &.purple {
-            background: #c15e8a;
+		&.purple {
+			background: #c15e8a;
 
-            &.contrast {
-                color: #ffdefa;
-            }
-        }
+			&.contrast {
+				color: #ffdefa;
+			}
+		}
 
-        &.orange {
-            background: #cc8666;
+		&.orange {
+			background: #cc8666;
 
-            &.contrast {
-                color: #4c0600;
-            }
-        }
+			&.contrast {
+				color: #4c0600;
+			}
+		}
 
-        &.yellow {
-            background: #fac891;
+		&.yellow {
+			background: #fac891;
 
-            &.contrast {
-                color: #7a5811;
-            }
-        }
-    }
+			&.contrast {
+				color: #7a5811;
+			}
+		}
+	}
 
-    .dots {
-        color: #666;
-        font-style: italic;
-    }
+	.dots {
+		color: #666;
+		font-style: italic;
+	}
 }
 
 ul, p {
-    code {
-        background: #ffeae7;
-        font-size: 1rem;
-        padding: 2px 4px;
-        color: color.adjust(vars.$highlight-color, $lightness: -15%);
-        border-radius: 3px;
-    }
+	code {
+		background: #ffeae7;
+		font-size: 1rem;
+		padding: 2px 4px;
+		color: color.adjust(vars.$highlight-color, $lightness: -15%);
+		border-radius: 3px;
+	}
 }
 
 a code {
-    border-bottom: 1px dashed;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
+	border-bottom: 1px dashed;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
 }
 
 .hljs-keyword,
 .hljs-link,
 .hljs-section,
 .hljs-selector-tag{
-    color: #d57259;
+	color: #d57259;
 }
 
 .hljs-addition,
@@ -86,37 +86,37 @@ a code {
 .hljs-template-variable,
 .hljs-title,
 .hljs-type {
-    color: #e5e5e5;
+	color: #e5e5e5;
 }
 
 .hljs-number {
-    color: color.adjust(vars.$highlight-color, $lightness: -15%);
+	color: color.adjust(vars.$highlight-color, $lightness: -15%);
 }
 
 .hljs-string {
-    color: #d87b9e;
+	color: #d87b9e;
 }
 
 .hljs-literal {
-    color: #dc9676;
+	color: #dc9676;
 }
 
 .hljs-meta {
-    color: #C15E8A;
+	color: #C15E8A;
 }
 
 .hljs-variable {
-    color: #fac891;
+	color: #fac891;
 }
 
 .hljs-comment {
-    color: #847a78;
-    font-style: italic;
+	color: #847a78;
+	font-style: italic;
 }
 
 .hljs-deletion,
 .hljs-quote{
-    color: #bbb;
+	color: #bbb;
 }
 
 .hljs-doctag,
@@ -128,9 +128,9 @@ a code {
 .hljs-strong,
 .hljs-title,
 .hljs-type{
-    font-weight: 400;
+	font-weight: 400;
 }
 
 .hljs-emphasis{
-    font-style: italic;
+	font-style: italic;
 }

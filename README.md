@@ -34,4 +34,9 @@ Install `uv` if not already done. Bump version number in
     git push origin vX.X.X
     sass --style=compressed --no-source-map styles:theme
     uv build
-    uv publish --username <user> --token <token> # or uv-publish with .pypirc
+
+	# publish manually
+    uv publish --username <user> --token <token>
+
+	# publish with credentials in .pypirc	
+	uvx uv-publish

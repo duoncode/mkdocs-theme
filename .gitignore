@@ -2,6 +2,6 @@
 __pycache__
 build/
 dist/
-mkdocs_fiveorbs.egg-info/
+mkdocs_duon.egg-info/
 site/
 theme/*.css*

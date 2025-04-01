@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace FiveOrbs\Boiler;
+namespace Duon\Boiler;
 
-use FiveOrbs\Boiler\Engine;
+use Duon\Boiler\Engine;
 
 #[Call('value')]
 class Layout extends Template
@@ -43,4 +43,3 @@ class Layout extends Template
 		return $text . str_pad($value, 10, '-');
 	}
 }
-

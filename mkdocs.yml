@@ -1,11 +1,11 @@
-site_name: FiveOrbs Theme
+site_name: Duon Theme
 dev_addr: localhost:7371
 extra:
-  project: FiveOrbs
+  project: Duon
 copyright: © 2022-2024 ebene fünf GmbH
 theme:
-  name: fiveorbs
-repo_url: https://github.com/fiveorbs/mkdocs-theme
+  name: duon
+repo_url: https://github.com/duon/mkdocs-theme
 markdown_extensions:
   - admonition
   - pymdownx.snippets:

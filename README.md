@@ -1,19 +1,19 @@
-FiveOrbs MkDocs Theme
+Duon MkDocs Theme
 =====================
 
 This is a theme for MkDocs which is mainly used for the documentation of
-[FiveOrbs](https://fiveorbs.dev) projects 
+[Duon](https://duon.sh) projects 
 
 ## Installation
 
 Install the package from PyPi using `pip`:
 
-    pip install mkdocs-fiveorbs
+    pip install mkdocs-duon
 
 Add the theme to your `mkdocs.yml` file:
 
     theme:
-        name: fiveorbs
+        name: duon
 
 ## Development server
 

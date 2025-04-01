@@ -49,4 +49,4 @@ elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
 aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
 dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
 
-![FiveOrbs Logo](/logo.svg)
+![Duon Logo](/logo.svg)
